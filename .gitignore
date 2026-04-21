@@ -1,0 +1,116 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+.eggs/
+
+# ============================
+# Environment & Secrets
+# ============================
+.env
+.env.*
+!.env.example
+*.env
+
+# ============================
+# ML / AI Models & Weights
+# ============================
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.pb
+*.h5
+*.hdf5
+*.ckpt
+*.pkl
+*.pickle
+
+# Hugging Face / faster-whisper cached models
+models/
+checkpoints/
+weights/
+pretrained/
+.cache/
+
+# ============================
+# Audio / Media files (temporary)
+# ============================
+*.wav
+*.mp3
+*.mp4
+*.flac
+*.ogg
+*.m4a
+*.aac
+uploads/
+output/
+temp/
+tmp/
+
+# ============================
+# Logs
+# ============================
+*.log
+logs/
+*.out
+
+# ============================
+# Testing & Coverage
+# ============================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# ============================
+# IDEs & Editors
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================
+# uv / pip
+# ============================
+uv.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================
+# Jupyter Notebooks
+# ============================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================
+# OS
+# ============================
+.DS_Store
+Desktop.ini
+ehthumbs.db
